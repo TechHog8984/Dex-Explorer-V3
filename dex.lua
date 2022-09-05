@@ -165,7 +165,7 @@ local ClearScript = Instance.new'TextButton'
 
 --properties
 Dex.Name = "Dex"
-Dex.Parent = game:GetService'Players'.LocalPlayer:WaitForChild('PlayerGui', math.huge)
+Dex.Parent = game:GetService("CoreGui")
 
 PropertiesFrame.Active = true
 PropertiesFrame.BackgroundColor3 = Color3.fromRGB(43.00000123679638, 43.00000123679638, 43.00000123679638)
