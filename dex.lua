@@ -164,7 +164,7 @@ local CopyScript = Instance.new'TextButton'
 local ClearScript = Instance.new'TextButton'
 
 --properties
-Dex.Name = (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200))
+Dex.Name = "" .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200))
 Dex.Parent = game:GetService("CoreGui")
 
 PropertiesFrame.Active = true
