@@ -164,7 +164,8 @@ local CopyScript = Instance.new'TextButton'
 local ClearScript = Instance.new'TextButton'
 
 --properties
-Dex.Name = "" .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200)) .. (string.char(math.random(0,200))
+Dex.Name = "" .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200))) .. (string.char(math.random(0,200)))
+syn.protect_gui(Dex);
 Dex.Parent = game:GetService("CoreGui")
 
 PropertiesFrame.Active = true
@@ -9087,9 +9088,9 @@ coroutine.wrap(function()
 		}
 		local CharWidth = SizeM.X
 		local CharHeight = SizeM.Y + 4
-		if (SizeDot.X ~= SizeM.X or SizeDot.Y ~= SizeM.Y) and SizeAV.X ~= SizeM.X + SizeDot.X then
-			return error("CodeEditor requires a monospace font with no currying", 2)
-		end
+		-- if (SizeDot.X ~= SizeM.X or SizeDot.Y ~= SizeM.Y) and SizeAV.X ~= SizeM.X + SizeDot.X then
+		-- 	return error("CodeEditor requires a monospace font with no currying", 2)
+		-- end
 		local ContentChangedEvent = newInst("BindableEvent")
 		local FocusLostEvent = newInst("BindableEvent")
 		local PlayerGui = game:GetService("Players").LocalPlayer:FindFirstChildOfClass("PlayerGui")
