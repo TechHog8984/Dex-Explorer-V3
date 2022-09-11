@@ -8,5 +8,5 @@ I came up with the idea for this when I was snooping through Dex, and I found th
 loadstring(game:HttpGet("https://github.com/TechHog8984/Dex-Explorer-V3/raw/main/dex.lua"))();
 ```
 
-### List of extra classes:
+### List of now-supported classes:
 - #### ProximityPrompt
