@@ -5,3 +5,6 @@
 ```lua
 loadstring(game:HttpGet("https://github.com/TechHog8984/Dex-Explorer-V3/raw/main/dex.lua"))();
 ```
+
+### List of extra classes:
+- #### ProximityPrompt
